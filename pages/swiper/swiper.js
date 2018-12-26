@@ -26,6 +26,13 @@ Page({
       autoplay: !this.data.autoplay
     })
   },
+  onPullDownRefresh: function () {
+    wx.showToast({
+      title: 'onPullDownRefresh',
+      duration: 1000,
+      mask: true
+    })
+  },
   intervalChange(e) {
     this.setData({
       interval: e.detail.value
