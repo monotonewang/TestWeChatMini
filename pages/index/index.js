@@ -9,6 +9,14 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+
+  onPullDownRefresh:function(){
+    wx.showToast({
+      title: 'onPullDownRefresh',
+      duration:'1000',
+      mask:true
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

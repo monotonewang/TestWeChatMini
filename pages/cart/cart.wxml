@@ -7,7 +7,6 @@
   <view class='item' wx:for="{{proList}}">
     <image src='/images/fish.png'></image>
     <view class='title'>{{item.title}}</view>
-    <text class='price'>{{item.price}}</text>
     <view class='price'>{{ filters.toFix(item.price,2) }}</view>
   </view>
 
