@@ -1,0 +1,5 @@
+<!--pages/w_web_page/w_web_page.wxml-->
+<text>pages/w_web_page/w_web_page.wxml</text>
+<web-view src="https://www.github.com/montonewang">
+
+</web-view>

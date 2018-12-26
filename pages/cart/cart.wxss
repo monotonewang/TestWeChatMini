@@ -1,0 +1,29 @@
+/* pages/cart/cart.wxss */
+
+page{
+  font-size: 14px;
+  color:gray;
+}
+.price{
+  color: red
+}
+.item{
+  width: 30%;
+}
+.item image{
+  width: 100%;
+  height: 200rpx;
+}
+.item title{
+  margin-inline-start: 50rpx;
+}
+
+.content{
+  margin-bottom: 12rpx;
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  
+}

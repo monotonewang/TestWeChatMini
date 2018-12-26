@@ -1,0 +1,31 @@
+var toFixing = function(val, count){
+  var num = parseFloat(val);
+  return num.toFixed(count);
+}
+
+/**
+ * TODO 
+ * string 直接 toFixed无法获取返回值
+ */
+var myfilters={
+  toFix:function(val,count){
+
+    var num =parseFloat(val)
+   var x= num.toFixed(2);
+    return x;
+    // return val.toFixed(count);
+  }
+}
+var foo = "'hello world' from comm.wxs";
+
+
+var bar = function(d) {
+  return d;
+}
+
+module.exports = {
+  foo: foo,
+  bar: bar,
+  // toFix: myfilters.toFix,
+  toFix: toFixing,
+};

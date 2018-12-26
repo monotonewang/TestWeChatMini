@@ -1,0 +1,2 @@
+<!--pages/user/user.wxml-->
+<button  class="button" type="primary" bindtap="bindViewTap">http://www.github.com/monotonewang</button> 
